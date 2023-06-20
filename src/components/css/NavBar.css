@@ -1,1 +1,28 @@
 /* css for NavBar component */
+
+#navBar {
+    display: flex;
+    width: 100vw;
+    font-size: 1.2rem;
+    align-items: center;
+    padding-left: 15px;
+    height: 40px;
+    background-color: rgb(124, 124, 118);
+}
+
+#navLinks {
+    display: flex;
+    gap: 25px;
+}
+
+/* Link returns a standard a tag */
+a {
+    text-decoration: none;
+    color: ivory;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}

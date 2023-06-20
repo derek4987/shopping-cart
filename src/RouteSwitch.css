@@ -1,1 +1,25 @@
 /* css for RouteSwitch.js */
+
+:root {
+    min-height: 100vh;  
+    background-color: ivory;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.content {
+    padding-top: 40px;
+}

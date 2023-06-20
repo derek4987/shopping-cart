@@ -1,7 +1,8 @@
 import React from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./routes/Homepage.js";
 import ShopPage from "./routes/ShopPage.js"
+import './RouteSwitch.css';
 
 const RouteSwitch = () => {
   return (
