@@ -6,23 +6,40 @@
     font-size: 1.2rem;
     align-items: center;
     padding-left: 15px;
+    padding-right: 15px;
     height: 40px;
-    background-color: rgb(124, 124, 118);
+    background-color: whitesmoke;
+    border-bottom: 1px solid black;
 }
 
 #navLinks {
     display: flex;
+    width: 100vw;
+}
+
+.navLinksSection1 {
+    display: flex;
     gap: 25px;
+}
+
+#cartLink {
+    margin-left: auto;
+    margin-right: 30px;
 }
 
 /* Link returns a standard a tag */
 a {
     text-decoration: none;
-    color: ivory;
+    color: black;
 }
 
 .sticky {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.siteTitle {
+    color: black;
+    font-weight: 700;
 }

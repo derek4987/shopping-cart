@@ -8,14 +8,19 @@ const NavBar = (props) => {
     return (
       <nav id="navBar" className="sticky">
         <ul id="navLinks">
-            <li>
-                <Link to="/">Home</Link>
-            </li>
-            <li>
-                <Link to="/shop">Shop</Link>
-            </li>
-            <li>
-                <Link to="/cart">Cart</Link>
+            <div class="navLinksSection1">
+              <li className="siteTitle">
+                Fake Store |
+              </li>
+              <li>
+                  <Link to="/">home</Link>
+              </li>
+              <li>
+                  <Link to="/shop">shop</Link>
+              </li>
+            </div>
+            <li id="cartLink">
+                <Link to="/cart">cart ( 0 )</Link>
             </li>
         </ul>
       </nav>
