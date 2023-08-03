@@ -4,3 +4,31 @@
     background-color: whitesmoke;
     min-height: 100vh;
 }
+
+#hpContent {
+    margin-top: 15vh;
+    margin-left: 8vw;
+}
+
+.hpTxt {
+    display: flex;
+    flex-direction: column;
+}
+
+.hpMainTxt {
+    font-size: 2rem;
+}
+
+.hpSubTxt {
+    font-size: 1rem;
+    width: 400px;
+    line-height: 2;
+}
+
+.hpBtn {
+    font-size: 1.5rem;
+    width: 150px;
+    height: 65px;
+    margin-top: 15px;
+    background-color: rgb(233, 186, 100);
+}
