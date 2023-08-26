@@ -1,3 +1,5 @@
+// App.test file. May or may not use (note added to test git connection in new computer)
+
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
