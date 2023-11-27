@@ -4,3 +4,8 @@
     background-color: whitesmoke;
     min-height: 100vh;
 }
+
+#shopPageSpacer {
+    padding-bottom: 40px;
+    padding-left: 15px;
+}
