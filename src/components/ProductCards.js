@@ -22,7 +22,7 @@ const ProductCards = (props) => {
                 <img className="pcItemPhoto" src={pcItemPhoto}/>
             </div>
             <div className="pcItemBottomRibbon">
-                <div className="pcItemPrice">{pcItemPrice}</div>
+                <div className="pcItemPrice">${pcItemPrice}</div>
                 <div>
                     <button type="button" className="pcAddCartBtn">Add to Cart</button>    
                 </div>                
